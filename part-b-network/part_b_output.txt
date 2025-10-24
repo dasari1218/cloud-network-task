@@ -1,0 +1,4 @@
+Subnets in VPC vpc-88afaad3d0c932164 : ['subnet-134d1b39b47fc22aa', 'subnet-6fcbd83ed34c424bf']
+Created EC2 instance i-0cf3bf2346f59a9e6 in subnet subnet-134d1b39b47fc22aa
+Created EC2 instance i-7a70c153fa650a5ba in subnet subnet-6fcbd83ed34c424bf
+All EC2 instances created: ['i-0cf3bf2346f59a9e6', 'i-7a70c153fa650a5ba']

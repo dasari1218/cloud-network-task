@@ -1,0 +1,39 @@
+
+VPCs:
+  vpc-2030d4e56f8a33eea - N/A - 172.31.0.0/16 - available
+  vpc-88afaad3d0c932164 - task2-vpc - 10.10.0.0/16 - available
+  vpc-537ec5f7e05eda36d - task2-vpc - 10.10.0.0/16 - available
+  vpc-837c10153bd105b3d - task2-vpc - 10.10.0.0/16 - available
+
+Subnets:
+  subnet-3c9449419a3a4d63c - N/A - VPC: vpc-2030d4e56f8a33eea - CIDR: 172.31.0.0/20 - AZ: us-east-1a
+  subnet-134d1b39b47fc22aa - task2-subnet-a - VPC: vpc-88afaad3d0c932164 - CIDR: 10.10.1.0/24 - AZ: us-east-1a
+  subnet-aa00bf791c5b14b12 - task2-subnet-a - VPC: vpc-537ec5f7e05eda36d - CIDR: 10.10.1.0/24 - AZ: us-east-1a
+  subnet-8eb441308d7c592bf - task2-subnet-a - VPC: vpc-837c10153bd105b3d - CIDR: 10.10.1.0/24 - AZ: us-east-1a
+  subnet-cce091b916cd6de70 - N/A - VPC: vpc-2030d4e56f8a33eea - CIDR: 172.31.16.0/20 - AZ: us-east-1b
+  subnet-6fcbd83ed34c424bf - task2-subnet-b - VPC: vpc-88afaad3d0c932164 - CIDR: 10.10.2.0/24 - AZ: us-east-1b
+  subnet-8106ef0615714b575 - task2-subnet-b - VPC: vpc-537ec5f7e05eda36d - CIDR: 10.10.2.0/24 - AZ: us-east-1b
+  subnet-132de8f0e62ea0c89 - task2-subnet-b - VPC: vpc-837c10153bd105b3d - CIDR: 10.10.2.0/24 - AZ: us-east-1b
+  subnet-d9966a8e2d1dbb023 - N/A - VPC: vpc-2030d4e56f8a33eea - CIDR: 172.31.32.0/20 - AZ: us-east-1c
+  subnet-979183a5f7b0dc289 - N/A - VPC: vpc-2030d4e56f8a33eea - CIDR: 172.31.48.0/20 - AZ: us-east-1d
+  subnet-589d4a2ca1770731b - N/A - VPC: vpc-2030d4e56f8a33eea - CIDR: 172.31.64.0/20 - AZ: us-east-1e
+  subnet-44b9212aadef0f9b7 - N/A - VPC: vpc-2030d4e56f8a33eea - CIDR: 172.31.80.0/20 - AZ: us-east-1f
+
+Route Tables:
+  rtb-35ec7b624bd7b80ed - VPC: vpc-2030d4e56f8a33eea - Routes: ['172.31.0.0/16']
+  rtb-1094a7d80b49ac584 - VPC: vpc-88afaad3d0c932164 - Routes: ['10.10.0.0/16']
+  rtb-84ca6b35ef6ef018a - VPC: vpc-88afaad3d0c932164 - Routes: ['10.10.0.0/16']
+  rtb-5c2d5cb2c06de4585 - VPC: vpc-537ec5f7e05eda36d - Routes: ['10.10.0.0/16']
+  rtb-68f76cec09eb7fac4 - VPC: vpc-537ec5f7e05eda36d - Routes: ['10.10.0.0/16']
+  rtb-f4d51906a4389922d - VPC: vpc-837c10153bd105b3d - Routes: ['10.10.0.0/16']
+  rtb-acba23720229bab2a - VPC: vpc-837c10153bd105b3d - Routes: ['10.10.0.0/16']
+
+EC2 Instances:
+  i-f57c20e68e1ab1f0f - Subnet: subnet-134d1b39b47fc22aa - State: running
+  i-b32e410a2857a5af2 - Subnet: subnet-6fcbd83ed34c424bf - State: running
+  i-f993fba9d925e77f0 - Subnet: subnet-134d1b39b47fc22aa - State: running
+  i-94d5b2ba04d10ed43 - Subnet: subnet-6fcbd83ed34c424bf - State: running
+  i-0cf3bf2346f59a9e6 - Subnet: subnet-134d1b39b47fc22aa - State: running
+  i-7a70c153fa650a5ba - Subnet: subnet-6fcbd83ed34c424bf - State: running
+
+Environment verification complete!

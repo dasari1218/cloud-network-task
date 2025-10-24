@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  localstack:
+    image: localstack/localstack:1.4
+    environment:
+      - SERVICES=ec2,elbv2,iam,sts
+      - DEBUG=1
+      - DATA_DIR=/tmp/localstack/data
+    ports:
+      - "4566:4566"
+    volumes:
+      - "./localstack_data:/tmp/localstack"
+

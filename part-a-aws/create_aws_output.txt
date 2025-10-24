@@ -1,0 +1,4 @@
+VPC: vpc-837c10153bd105b3d
+Subnets: subnet-8eb441308d7c592bf subnet-132de8f0e62ea0c89
+RouteTable: rtb-acba23720229bab2a
+DONE. VPC: vpc-837c10153bd105b3d
